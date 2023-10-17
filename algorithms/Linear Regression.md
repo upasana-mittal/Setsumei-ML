@@ -1,5 +1,5 @@
 # Linear regression
 
 $$
-f_(w,b)(x) = wx + b
+f_{w,b}(x) = wx + b
 $$
