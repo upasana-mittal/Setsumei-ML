@@ -35,3 +35,23 @@ $$
 $$
 ⊽f = [𝜕f/\𝜕x, 𝜕f/\𝜕y]
 $$
+
+- The *list of probabilities* is called **probability mass function (pmf)**
+- The probability distribution of a continuous random variable (a continuous probability distribution) is described by a **probability density function (pdf)** 
+- The **pdf** is a function whose codomain is non-negative and the area under the curve is equal to 1
+
+## Bayes Rule / Bayes Theorem
+
+$$
+Pr(X=x/Y=y) = Pr(Y=y/X=x)Pr(X=x) / Pr(Y=y)
+$$
+
+**Principle of maximum likelihood**
+
+$$
+θ^* = arg max_θ ∏^N_(i=1) Pr(θ = θ^^ / X=x_i)
+$$
+
+If the set of possible values for theta is not finite, then we need to optimize the above equation directly using a numerical optimization routine such as gradient descent.
+
+Usually, we optimize the natural logarithm of the right hand side expressions because the logarithm of a product becomes the sum of logarithms and easier for the machine to work with sum than the product

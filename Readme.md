@@ -46,7 +46,7 @@ $$
 
 The *goal of an unsupervised learning* algorithm is to create a model that takes a feature vector as input and either transforms it into another vector or into a value that can be used to solve a practical problem.
 
-Examples: Clustering, Dimensionality Reduction * Outlier Detection
+Examples: Clustering, Dimensionality Reduction, Outlier Detection
 
 ### Semisupervised Learning
 
