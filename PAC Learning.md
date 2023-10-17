@@ -12,13 +12,16 @@ h \in H
 $$
 
 is approximately correct if its error over the distribution of inputs is bounded by some *E* , 0<= *E* <=1/2. i.e. 
+
 $$
 error_D(h) < ϵ
 $$
+
 where *D* is the distribution over inputs.
 
 
 Next, "probably", if *L* will output such a classifier with probability
+
 $$
 1 - δ
 $$
@@ -28,6 +31,7 @@ with
 $$
 0 <= δ <= 1/2,
 $$
+
 we call that classifier probably approximately correct.
 
 Knowing that a target concept is PAC learnable allows you to bound the sample size necessary to probably learn an approximately correct classifier, which is whats shown in teh formula you have reproduced:
