@@ -5,10 +5,12 @@ PAC theory helps analyze whether and under what conditions a learner *L* with pr
 
 Let's define "approximate"
 
-A hypothesis 
+A hypothesis
+
 $$
 h \in H
 $$
+
 is approximately correct if its error over the distribution of inputs is bounded by some *E* , 0<= *E* <=1/2. i.e. 
 $$
 error_D(h) < ϵ
