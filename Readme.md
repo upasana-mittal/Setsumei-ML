@@ -1,3 +1,9 @@
+# Notes
+
+Note: These are my notes sourced from
+- The hundred page machine learning book
+- Sklearn python library
+
 Machine Learning is a universally recognised term that usually refers to the science and engineering of building machine
 capable of doing various useful things without being explicitly programmed to do so.
 
@@ -14,10 +20,16 @@ $$
 \{ (x_i,y_i) \} ^N_i=1
 $$
 
-Each element $$ x_i $$ among *N* is called a feature vector.
+Each element 
+
+$$ x_i $$ 
+
+among *N* is called a feature vector.
 
 ***Feature Vector*** is a vector in which each dimension *j=1,...,D* contains a value that describes the example.
-That value is *feature* and denoted as $$ x^(j) $$
+That value is *feature* and denoted as 
+
+$$ x^(j) $$
 
 The *goal of the supervised Learning* algorithm is to use the dataset to produce a model that feature vector as input and outputs information that allows deducing the label for this feature vector.
 
