@@ -13,7 +13,7 @@ We also want to minimize $||w||$ so that the hyperplane was equally distant from
 The optimization problem for SVM:
 
 $$
-(min||w||^2)/2
+min(1/2)||w||^2
 $$
 
 where
