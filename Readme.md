@@ -29,7 +29,7 @@ among *N* is called a feature vector.
 ***Feature Vector*** is a vector in which each dimension *j=1,...,D* contains a value that describes the example.
 That value is *feature* and denoted as 
 
-$$ x^(j) $$
+$$ x^{j} $$
 
 The *goal of the supervised Learning* algorithm is to use the dataset to produce a model that feature vector as input and outputs information that allows deducing the label for this feature vector.
 
@@ -41,7 +41,7 @@ dataset --> collection of unlabelled examples
 feature vector
 
 $$
-\{x_i\}^N_(i=1)
+\{x_i\}^N_{i=1}
 $$
 
 The *goal of an unsupervised learning* algorithm is to create a model that takes a feature vector as input and either transforms it into another vector or into a value that can be used to solve a practical problem.
