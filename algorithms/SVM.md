@@ -8,12 +8,12 @@ Hyperplane satisfy the following constraints:
 - $wx_i - b ⋝ 1$ if $y_i = + 1$ and
 - $wx_i - b ⋜ 1$ if $y_i = - 1$ 
 
-We also want to minimize $ ||w|| $ so that the hyperplane was equally distant from the closest examples of each class.
+We also want to minimize $||w||$ so that the hyperplane was equally distant from the closest examples of each class.
 
 The optimization problem for SVM:
 
 $$
-min1/2||w||^2
+(min||w||^2)/2
 $$
 
 where
