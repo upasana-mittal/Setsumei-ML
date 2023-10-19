@@ -11,7 +11,7 @@ $$
 The optimization process that we use to find the optimal values for *w* and *b* tries to minimize the following expression:
 
 $$
-1/N ∑_{i=1,..,N}(f_{w,b}_(x_i)-y_i)^2
+1/N ∑_{i=1,..,N}(f_{w,b}_(x_{i}-y_{i}))^2
 $$
 
 The expression we minimize or maximize is called an objective function.
