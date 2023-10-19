@@ -66,6 +66,11 @@ The action is optimal if it maximizes the expected average reward.
 
 RL solves a particular kind of problem where decision making is sequential and the goal is long term, such as game playing, robotics & logistics.
 
+### Algorithms
 
+- Linear regression [Click here!](algorithms/Linear%20Regression.md)
+- Logistic Regression [Click here!](algorithms/Logistic%20Regression.md)
+- Decision tree [Click here!](algorithms/Decision%20Tree.md)
+- SVM [Click here!](algorithms/SVM.md)
 
 
