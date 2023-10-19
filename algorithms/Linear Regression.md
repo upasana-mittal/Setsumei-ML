@@ -10,11 +10,13 @@ $$
 
 The optimization process that we use to find the optimal values for *w* and *b* tries to minimize the following expression:
 
+
 $$
 1/N∑_{i=1,..,N}(f_{w,b}_(x_{i}-y_{i}))^2
 $$
 
-The expression we minimize or maximize is called an objective function.
+
+The expression we minimize or maximize is called an *objective function*.
 
 The expression
 
@@ -22,9 +24,9 @@ $$
 (f(x_i)-y_i)^2
 $$
 
-in the above objective is called the loss function. It's a measure of penalty for misclassification of example *i*
+in the above objective is called the *loss function*. It's a measure of penalty for misclassification of example *i*
 
-This particular choice of the loss function is called the squared error loss.
+This particular choice of the loss function is called the *squared error loss*.
 
 #### Note
 
