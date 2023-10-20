@@ -12,7 +12,7 @@ The optimization process that we use to find the optimal values for *w* and *b* 
 
 
 $$
-1/N∑_{i=1,..,N}(f_{w,b}_(x_{i}-y_{i}))^2
+1/N∑_{i=1,..,N}(f_{w,b}(x_{i}-y_{i}))^2
 $$
 
 
