@@ -77,5 +77,15 @@ playing, robotics & logistics.
 - Logistic Regression [Click here!](algorithms/Logistic%20Regression.md)
 - Decision tree [Click here!](algorithms/Decision%20Tree.md)
 - SVM [Click here!](algorithms/SVM.md)
+- kNN [Click Here!](algorithms/kNN.md)
+
+### Building blocks
+
+Each learning algorithm consists of three parts:
+
+- a loss function
+- an optimization criterion based on the loss function (cost function)
+- an optimization routine that leverages training data to find a solution to the optimization criterion
+
 
 
