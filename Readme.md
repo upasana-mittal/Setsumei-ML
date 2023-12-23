@@ -87,5 +87,24 @@ Each learning algorithm consists of three parts:
 - an optimization criterion based on the loss function (cost function)
 - an optimization routine that leverages training data to find a solution to the optimization criterion
 
+### Feature Engineering
+
+ - One Hot Encoding: Converting categorical to numerical values
+ - Binning: Converting continuous values to bins/ranges as in categorical
+ - Normalization: Process if converting an actual range of values which a numerical feature can take, into a standard range of values, typically in the interval [-1,1] or [0,1]
+ - Standardization or z-score normalization: Procedure during which the features are rescaled so that they have properties of s standard normal distribution with  mean = 0 and standard deviation = 1
+
+Tips:
+
+- Unsupervised learning algorithms, in practice, more often benefit from standardization than from normalization;
+- Standardization is also a feature if the values this feature takes are distributed close to a normal distribution
+- Standardization is preferred for a feature if it can sometimes have extremely high or low values(outliers); this is because normalization will squeeze the normal values into a very small range;
+
+
+#### Confusion Matrix
+The confusion matrix is a table hat summarizes how successful the classification model is at predicting examples belonging to various classes. One axis of the confusion matrix is teh label that the model predicted, and the other axis is the actual label.
+
+#### Precision/Recall
+Precision is the ratio of correct positive predictions to the overall number of positive predictions. recall is the ratio of correct positive predictions to the overall number of positive examples in the dataset.
 
 

@@ -20,4 +20,4 @@ If the vectors are orthogonal, the cosine similarity is 0. For vectors pointing 
 directions, the cosine similarity is ≠1. If we want to use cosine similarity as a distance metric,
 we need to multiply it by ≠1. Other popular distance metrics include *Chebychev distance,
 Mahalanobis distance, and Hamming distance*. The choice of the distance metric, as well as
-the value for k, are the choices the analyst makes before running the algorithm.
+the value for k, are the choices the analyst makes before running the algorithm which are also known as hyperparameters.
