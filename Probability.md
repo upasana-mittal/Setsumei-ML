@@ -97,16 +97,16 @@ central limit theorem.
 
 ## Markov Chains
 
-A Markov chain is a process in which there is a finite set of states, and the probability of being in a particular state
+A _Markov chain_ is a process in which there is a finite set of states, and the probability of being in a particular state
 is only dependent on the previous state.
 Stated another way, a Markov property is such that, given the current state, the past and future states it will occupy
 are conditionally independent.
 
-A recurrent state is one whereby, if entering that state, one will always transition back into that state eventually.
-In contrast, a transient state is one in which, if entered, there is a positive probability that upon leaving, one will
+A _recurrent state_ is one whereby, if entering that state, one will always transition back into that state eventually.
+In contrast, a _transient state_ is one in which, if entered, there is a positive probability that upon leaving, one will
 never enter that state again.
 
-A stationary distribution for a Markov chain satisfies the following characteristics: _pie = pie*P_,
+A _stationary distribution for a Markov chain_ satisfies the following characteristics: _pie = pie*P_,
 where _P_ is a transition matrix,a nd remains fixed following any transitions using _P_. Thus _P_ contains the long run
 proportions of teh time that a process will spend in any particular state over time.
 
