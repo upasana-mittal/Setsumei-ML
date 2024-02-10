@@ -55,7 +55,8 @@ around _x_ can be measured
 
 ## Discrete Probability Distribution
 
-The binomial probability distribution gives the probability of k number of successes in n independent trials, where each
+The _binomial probability distribution_ gives the probability of k number of successes in n independent trials, where
+each
 trial has probability p of success. Its PMF is
 
 $$
@@ -65,9 +66,34 @@ $$
 The most common applications for a binomial distribution are coin flips (the number of heads in n flips), user signups
 and any situation involving counting some number of successful events where outcome of each event is binary.
 
-The Poisson Distribution gives the probability of the number of events occurring within a particular fixed interval
+The _Poisson Distribution_ gives the probability of the number of events occurring within a particular fixed interval
 where the known, constant rate of each event's occurrence is lambda.
-The most common applications for a possession distribution are in assessing const over a continuous interval, such as
+The most common applications for a Poisson distribution are in assessing const over a continuous interval, such as
 the number of visits to a website in a certain periods of time or the number of defects ina square foot of fabric. Thus,
 instead of coin flips with probability p of a head as a use case of the binomial distribution, applications of the
 Poisson will involve a process X occurring at a rate lambda.
+
+## Continuous Probability Distributions
+
+The _uniform distribution_ assumes a constant probability of an _X_ falling between values on the interval a to b.
+Its PDF is
+
+$$
+f(x)=1/(b-a)
+$$
+
+The most applications for a uniform distribution are in sampling random number generation for example and hypothesis
+testing cases.
+
+The _exponential distribution_ gives the probability of teh interval length between events of a Poisson process having a
+set rate parameter of lambda.
+The most common applications for an exponential distribution are in wait times, such as the time until a customer makes
+a purchase or the time until a default in credit occurs. One of the distribution's most useful properties, and one that
+makes for natural questions, is the property of memory less ness the distribution.
+
+The _normal distribution_ distributes probability according to eh well known bell curve over a range of X's. Many
+applications involve the normal distribution, largely due to its natural fit to many real life occurrences, and the
+central limit theorem.
+
+
+
