@@ -71,6 +71,13 @@ def avg_loss(spendings, sales, w, b):
     N = len(spendings)
     total_error = 0.0
     for i in range(N):
-        total_error += (sales[i] - (w*spendings[i]+b))**2
-    return total_error/float(N)
+        total_error += (sales[i] - (w * spendings[i] + b)) ** 2
+    return total_error / float(N)
 ```
+
+## Ace the DS interview
+
+ML is concerned with minimizing some particular objective function (known as cost function). A loss function measures
+how well a particular model fits a given dataset, and the lower the cost, teh more desirable. Techniques to the optimize
+the loss function are known as optimization methods.
+

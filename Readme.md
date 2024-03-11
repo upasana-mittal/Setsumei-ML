@@ -108,3 +108,12 @@ The confusion matrix is a table hat summarizes how successful the classification
 Precision is the ratio of correct positive predictions to the overall number of positive predictions. recall is the ratio of correct positive predictions to the overall number of positive examples in the dataset.
 
 
+## TODOs
+- Bias variance trade off
+- Model complexity and overfitting
+- Regularization
+- Cross validation
+- Bootstrap and bagging
+- Hyperparameter Tuning
+- GMM Gaussian Mixture model
+- Coding: Space & time complexity, Data Structures, Linked List, Stacks & Queues, Hashmaps, trees, Breadth first & depth first, Algorithms (recursion, greedy, dynamic), sorting (merge & quick)

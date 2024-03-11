@@ -39,4 +39,13 @@ training data.
 
 Linear models rarely overfit!!
 
+## Assumptions
+- Linearity: The relationship between feature set and the target variable is linear
+- Homoscedasticity: The variance of the residuals is constant
+- Independence: All observations are independent of one another
+- Normality: The distribution of Y is assumed to be normal
+- Outliers
+- Multicollinearity
+- Confounding variables
+- 
 
